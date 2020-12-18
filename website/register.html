@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<!—18110244+郑炳燃 -->
+</head>
+
+<body>
+	<div class="zc">
+	<form action="#" method="get">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账&nbsp;&nbsp;号:<input type="text" name="username" required="required" pattern="^\d{10}$" placeholder="10位数字"/><br></br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;码:<input type="password" name="pwd" required="required" pattern="^\d{6}$" placeholder="6位数字"/><br></br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;身份证号:<input type="text" name="mycard" required="required"  pattern="^\d{15}|\d{18}$" placeholder="18位数"/><br></br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail地址:<input type="email" name="myemail" required="required"  pattern="^\w+([-.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"/>
+            <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;性别:
+			<select>
+			    <option>男</option>
+				<option>女</option>
+				<option>不愿透露</option>
+			</select>
+			&nbsp;&nbsp;请输入你的年龄:<input type="number" name="number1" required="required" min="10" max="100"/>
+			<br/><br/>
+            &nbsp;&nbsp;<input type="checkbox" name="agree" style="margin-left:100px;display:inline-block;" value="1"/>
+            <span style="font-size:10px;">我已阅读并同意《用户注册协议》</span>
+            <br/><br/>
+			<input type="submit" value="同意以上协议并注册" style="margin-left:100px;height:30px;width:300px;display:inline-block;"/>
+        </div>
+    </form>
+	
+</body>
+</html>
